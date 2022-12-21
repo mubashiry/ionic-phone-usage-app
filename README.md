@@ -2,6 +2,10 @@
 
 This project include demo UI for Phone Usage App. It is build using Ionic.
 
+![Screen One](screen-01.png)
+
+![Screen Two](screen-02.png)
+
 
 ## How to Run the Project
 
