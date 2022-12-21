@@ -2,7 +2,7 @@
 
 This project include demo UI for Phone Usage App. It is build using Ionic.
 
-<img src="screen01.png" width="200">
+![Screen One](screen-01.png)
 
 ![Screen Two](screen-02.png)
 
