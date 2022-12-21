@@ -1,0 +1,26 @@
+ion-title.title-large {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+ion-title {
+  --color: #ffffff;
+}
+
+ion-toolbar {
+  --background: #242424;
+}
+ion-searchbar{
+  --background: #ffffff
+}
+ion-icon {
+  --ionicon-stroke-width: 16px;
+  font-size: 40px;
+}
+
+ion-grid ion-label, 
+ion-grid ion-icon{
+  display: block !important;
+  margin: 0px auto !important;
+  text-align: center !important;
+}

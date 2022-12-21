@@ -1,0 +1,100 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Mobile App Usage</ion-title>
+  </ion-toolbar>
+  
+  <ion-toolbar>
+    <ion-searchbar></ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div id="container">
+    <ion-accordion-group value="first">
+      <ion-accordion value="first" open>
+        <ion-item slot="header" color="light">
+          <ion-label class="ion-text-start">Most Used</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content">
+          <ion-grid>
+            <ion-row>
+              <ion-col>
+                <ion-icon name="chatbox-ellipses-outline"></ion-icon>
+                <ion-label>Messages</ion-label>
+              </ion-col>
+
+              <ion-col>
+                <ion-icon name="calendar-outline"></ion-icon>
+                <ion-label>Calender</ion-label>
+              </ion-col>
+
+              <ion-col>
+                <ion-icon name="camera-outline"></ion-icon>
+                <ion-label>Camera</ion-label>
+              </ion-col>
+
+              <ion-col>
+                <ion-icon name="call-outline"></ion-icon>
+                <ion-label>Call</ion-label>
+              </ion-col>
+            </ion-row>
+
+            <ion-row class="ion-margin-top">
+              <ion-col>
+                <ion-icon name="calculator-outline"></ion-icon>
+                  <ion-label>Calculator</ion-label>
+              </ion-col>
+
+              <ion-col>
+                <ion-icon name="settings-outline"></ion-icon>
+                <ion-label>Settings</ion-label>
+              </ion-col>
+
+              <ion-col>
+                <ion-icon name="game-controller-outline"></ion-icon>
+                <ion-label>Games</ion-label>
+              </ion-col>
+
+              <ion-col>
+                <ion-icon name="reader-outline"></ion-icon>
+                <ion-label>Notes</ion-label>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </div>
+      </ion-accordion>
+      <ion-accordion value="second">
+        <ion-item slot="header" color="light">
+          <ion-label class="ion-text-start">Not Used in Last 30 days</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content">
+          <ion-grid>
+            <ion-row>
+              <ion-col>
+                <ion-icon name="navigate-circle-outline"></ion-icon>
+                  <ion-label>Map</ion-label>
+              </ion-col>
+
+              <ion-col>
+                <ion-icon name="qr-code-outline"></ion-icon>
+                <ion-label>QR Scan</ion-label>
+              </ion-col>
+
+              <ion-col>
+                <ion-icon name="stats-chart-outline"></ion-icon>
+                <ion-label>Stocks</ion-label>
+              </ion-col>
+
+              <ion-col>
+                <ion-icon name="cloud-circle-outline"></ion-icon>
+                <ion-label>Cloud</ion-label>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </div>
+      </ion-accordion>
+    </ion-accordion-group>
+
+    
+  </div>
+</ion-content>
